@@ -11,7 +11,7 @@ namespace PropellerMod.Items
 		{
 			Item.width = 18;
 			Item.height = 18;
-			Item.rare = ItemRarityID.Expert;
+			Item.rare = -12;
 			Item.vanity = true;
 		}
 
