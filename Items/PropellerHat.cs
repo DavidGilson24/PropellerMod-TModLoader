@@ -7,11 +7,11 @@ namespace PropellerMod.Items
     [AutoloadEquip(EquipType.Head)]
     public class PropellerHat : ModItem
     {
-		public override void SetDefault()
+		public override void SetDefaults()
 		{
 			Item.width = 18;
 			Item.height = 18;
-			Item.rare = ItemRarityID.Purple + 11;
+			Item.rare = ItemRarityID.Expert;
 			Item.vanity = true;
 		}
 
