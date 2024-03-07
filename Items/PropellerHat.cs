@@ -11,18 +11,17 @@ namespace PropellerMod.Items
 		{
 			Item.width = 18;
 			Item.height = 18;
-			Item.rare = -12;
+			Item.rare = ItemRarityID.Expert;
 			Item.vanity = true;
 		}
 
 		public override void AddRecipes()
         {
-            Recipe recipe = CreateRecipe();
+			Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ItemID.Feather, 5);
             recipe.AddIngredient(ItemID.Silk, 5);
-            recipe.AddIngredient(3859, 1);
-			recipe.AddTile(TileID.Anvils);
-            recipe.AddTile(TileID.MythrilAnvil);
+            recipe.AddIngredient(ItemID.DD2PetGato, 1);
+            recipe.AddTile(TileID.Anvils);
             recipe.Register();
         }
     }
