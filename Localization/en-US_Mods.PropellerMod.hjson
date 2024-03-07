@@ -1,0 +1,9 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+  PropellerHat: {
+    DisplayName: "Propeller Hat"
+    Tooltip: "You feel your body getting lighter as you put it on... That's the power of the propeller hat! (No cats were harmed in the making of this hat)"
+  }
+}
+

@@ -1,0 +1,3 @@
+displayName = The Propeller Mod
+author = LuckyCat
+version = 0.1
