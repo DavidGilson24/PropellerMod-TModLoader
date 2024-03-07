@@ -3,6 +3,11 @@
 Items: {
 	PropellerHat: {
 		DisplayName: Propeller Hat
-		Tooltip: You feel your body getting lighter as you put it on... That's the power of the propeller hat! (No cats were harmed in the making of this hat)
+		Tooltip:
+			'''
+			[c/FFA500:You feel your body getting lighter as you put it on...]
+			[c/FFFF00:That's the power of the propeller hat!]
+			(No cats were harmed in the making of this hat)
+			'''
 	}
 }
